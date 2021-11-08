@@ -1,0 +1,113 @@
+.header {
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+body {
+    margin:0;
+    padding:0;
+    background:gray;
+}
+nav {
+    padding: 0px 20px;
+    justify-content: space-between;
+    align-items: center;
+    display:flex;
+    background:black;
+}
+nav p {
+    color: white;
+}
+
+.logo img {
+    height: auto;
+}
+
+.logo {
+    height: 30px;
+}
+
+footer {
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    display:flex;
+    background:black;
+    overflow:auto;
+}
+footer p {
+    font-size: 20px;
+    color: white;
+}
+.navigationLinks {
+display: flex;
+justify-content: space-between;
+}
+
+.navigationLinks p {
+    margin-right: 10px;
+}
+
+.logo {
+    padding-right: 20px;
+    align-items: center;
+    display:flex;
+}
+ul {
+    padding:0;
+    margin:0 0 0 150px;
+    list-style:none;
+}
+li{
+    float:left;
+}
+
+.navigation {
+    width: 73%;
+    overflow: hidden;
+    height: 70px;
+    line-height: 70px;
+    background: #333;
+    padding: 1%;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+    font-size: medium;
+}
+
+.imageborder img {
+    border: 20px navy solid;
+}
+
+.imageborder {
+    text-align:center;
+}
+
+.biography {
+    background-color:#68A578;
+    padding: 20px;
+    width: 626px;
+    margin: 0 auto 20px auto;
+}
+
+.downloadButton {
+    text-align: center;
+}
+
+body {
+    background-image: url("/images/river bridge.jpg");
+    background-size: cover;
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+}
+
+
+
+footer {
+    background-color: beige;
+}
